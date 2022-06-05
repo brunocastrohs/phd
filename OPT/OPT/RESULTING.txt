@@ -1,0 +1,1 @@
+tipo;instancia;naive1;tempo1naive2;tempo2;naive3;tempo3;naive4;tempo4;naive5;tempo5;

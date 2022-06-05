@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\gurobi">
+      <UniqueIdentifier>{0f51f587-b31d-44b5-bb4c-a2af7ee45951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\util">
+      <UniqueIdentifier>{04847d7c-922e-41b5-a615-bce572ac9872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\util">
+      <UniqueIdentifier>{32e1a3bb-f65c-4141-bb45-dfc1e3e8a29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\naive">
+      <UniqueIdentifier>{c2a0faec-f595-477a-ae4b-5b251fdcd056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\heuristica">
+      <UniqueIdentifier>{6dbebe87-314b-4da3-89f0-adf15011755e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\heuristica">
+      <UniqueIdentifier>{67d67d44-b383-4420-aa95-625a68073197}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TSP.h">
+      <Filter>Arquivos de Cabeçalho\gurobi</Filter>
+    </ClInclude>
+    <ClInclude Include="TSPB.h">
+      <Filter>Arquivos de Cabeçalho\gurobi</Filter>
+    </ClInclude>
+    <ClInclude Include="TSPBPDU.h">
+      <Filter>Arquivos de Cabeçalho\gurobi</Filter>
+    </ClInclude>
+    <ClInclude Include="NAIVE1.h">
+      <Filter>Arquivos de Cabeçalho\naive</Filter>
+    </ClInclude>
+    <ClInclude Include="NAIVE2.h">
+      <Filter>Arquivos de Cabeçalho\naive</Filter>
+    </ClInclude>
+    <ClInclude Include="NAIVE3.h">
+      <Filter>Arquivos de Cabeçalho\naive</Filter>
+    </ClInclude>
+    <ClInclude Include="NAIVE4.h">
+      <Filter>Arquivos de Cabeçalho\naive</Filter>
+    </ClInclude>
+    <ClInclude Include="NAIVE5.h">
+      <Filter>Arquivos de Cabeçalho\naive</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceReader.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloner.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexUtil.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Passanger.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="HCZ.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_FLIP.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_SWAP.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_INTER.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_PUSH.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_POP.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="MLS.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="GRASP.h">
+      <Filter>Arquivos de Cabeçalho\heuristica</Filter>
+    </ClInclude>
+    <ClInclude Include="TSPPIR.h">
+      <Filter>Arquivos de Cabeçalho\gurobi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceReader.cpp">
+      <Filter>Arquivos de Origem\util</Filter>
+    </ClCompile>
+    <ClCompile Include="HCZ.cpp">
+      <Filter>Arquivos de Origem\heuristica</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
